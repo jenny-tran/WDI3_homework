@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  border: solid 2px black;
+  color: #005CA1;
+  margin-bottom: 10%;
+}
+
+#result {
+  padding-top: 2%;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#desiredTemp {
+  font-family: Arial;
+  font-size: 1em;
+}
+
+#submit {
+  border: solid 2px black;
+  font-size: 1em;
+  font-family: Arial;
+  background-color: #005CA1;
+  color: white;
+}
+
+input {
+  max-width: 10%;
+}
+
+#currentTemp {
+  font-weight: bold;
+}

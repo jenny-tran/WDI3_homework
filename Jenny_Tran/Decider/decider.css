@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+input {
+  width: 25%;
+  height: auto;
+}
+
+h1 {
+  padding-top: 20px;
+  font-weight: bold;
+}

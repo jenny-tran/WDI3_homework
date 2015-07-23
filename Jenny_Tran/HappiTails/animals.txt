@@ -1,0 +1,2 @@
+Spot, 2, Male, Dalmation, bone
+Freddie, 2 years old, male, dog, blanket

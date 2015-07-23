@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+img {
+  height: 240px;
+  width: auto;
+}
+
+.conversation {
+  padding-top: 50px;
+}
+
+#question {
+    border: solid 2px black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    padding: 2.5px;
+    width: 250px;
+}
+
+#answer {
+  padding-top: -20px;
+  font-family: 'Roboto Slab', serif;
+  border-padding: 5px;
+  padding-top: 20px;
+}
+
+#button {
+  border: solid 2px black;
+  font-family: 'Roboto Slab', serif;
+  font-size: 12px;
+  background-color: #3CB371;
+}

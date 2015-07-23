@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Magic 8 Ball</title>
+  <style>
+    
+    body {
+      text-align: center;
+      font-family: Arial;
+    }
+
+    img {
+      max-width: 40%;
+      height: auto;
+    }
+
+    button {
+      margin: 20px;
+    }
+
+    div {
+      margin: 20px;
+    }
+
+    input, button {
+      border: 2px solid black;
+      font-family: Arial;
+      font-size: 1em;
+    }
+
+    input {
+      width: 60%;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Ask the Magic 8 Ball!</h1>
+
+  <img src="http://legomenon.com/images/magic-8ball-first-white.jpg"></img>
+
+  <form>
+    <input type="text" name="question" id="question" placeholder="Question">
+    <button id="submit">Submit</button>
+    <div id="answer"></div>
+  </form>
+
+  <script src="magic8ball.js"></script>
+</body>
+</html>
