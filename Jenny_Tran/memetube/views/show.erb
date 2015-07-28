@@ -1,0 +1,13 @@
+<h1><%= @video['title'] %></h1>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/<%= @video['url'].split('=')[1] %>" frameborder="0" allowfullscreen></iframe>
+
+
+  
+  <form action="/videos/<%= @video['id'] %>/edit" method="post"> 
+    <button>Edit</button>
+  </form>
+  
+  <form action="/videos/<%= @video['id'] %>" method="post"> 
+    <button>Delete</button>
+  </form>

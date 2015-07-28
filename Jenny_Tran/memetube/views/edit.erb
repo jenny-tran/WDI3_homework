@@ -1,0 +1,30 @@
+<h2>Edit video description</h2>
+
+<form action="/videos/<%= @video['id'] %>" method="post">
+
+  <p>
+  <label for="">Name</label>
+  <input type="text" name="name" value="<%= @video['title'] %>">
+  </p>
+
+  <p>
+    <label for="">Description</label>
+    <textarea type="text" name="description"><%= @video['description'] %></textarea>
+  </p>
+
+  <p>
+    <label for="">URL</label>
+    <input type="text" name="image_url" value="<%= @video['url'] %>">
+  </p>
+
+  <p>
+    <label for="">Genre</label>
+    <input type="text" name="genre" value="<%= @video['genre'] %>">
+  </p>
+  
+  <button>Update</button>
+
+</form>
+
+
+

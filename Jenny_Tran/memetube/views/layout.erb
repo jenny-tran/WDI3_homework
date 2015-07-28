@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MemeTube</title>
+  <link rel='stylesheet' href='/stylesheets/main.css'>
+</head>
+<body>
+
+  <h1>MEMETUBE</h1>
+
+    <form action="/">
+      <input type="text" name="title" placeholder="Search a title">
+      <button>Search</button> OR
+    </form>
+
+    <form action="/videos/new">
+      <button>Add</button>
+    </form>
+  <%= yield %>
+
+</body>

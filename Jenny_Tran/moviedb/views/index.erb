@@ -1,0 +1,19 @@
+<!-- use .each to link each item and display -->
+
+<h2>You searched for "<%= @search %>".</h2>
+
+
+<% if @count == 1 %>
+  <p id="styled">There is 1 result.</p>
+<% elsif @count > 1 %>
+  <p id="styled">There are <%= @count %> results.</p>
+<% end %>
+
+<% if @results %>
+  <% @results.each do |movie| %>
+  <li><%= movie["Title"] %> (<%= movie["Year"] %>)</li>
+  <% end %>
+<% else %>
+  <p>Nothing found</p>
+<% end %>
+
